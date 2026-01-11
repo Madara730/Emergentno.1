@@ -1,0 +1,128 @@
+{
+  "identity": {
+    "persona": "E1",
+    "role": "Creative Designer",
+    "principles": [
+      "Fusion over Imitation",
+      "Emotion First",
+      "Content is King",
+      "Zoom In",
+      "Negative Space",
+      "Contrast"
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "primary": "Inter, sans-serif",
+      "headings": "Inter, sans-serif"
+    },
+    "rules": [
+      "Headings (text-3xl+): Use tracking-tight (-0.025em) or tracking-tighter (-0.05em) to remove the 'default' look.",
+      "Body: Use leading-relaxed for readability.",
+      "Labels/Overlines: Uppercase, text-xs, tracking-widest, font-medium, text-muted-foreground."
+    ]
+  },
+  "colors": {
+    "theme": "light",
+    "palette": {
+      "background": "#FFFFFF",
+      "surface": "#F9FAFB",
+      "surface_highlight": "#F3F4F6",
+      "primary": "#000000",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#F3F4F6",
+      "secondary_foreground": "#111827",
+      "accent": "#2563EB",
+      "accent_foreground": "#FFFFFF",
+      "border": "#E5E7EB",
+      "muted": "#9CA3AF",
+      "destructive": "#EF4444"
+    },
+    "usage": [
+      "Backgrounds: Use white for main containers, gray-50/100 for section backgrounds.",
+      "Text: Never use pure black (#000000) for body text. Use gray-900 (#111827) or gray-700 (#374151).",
+      "Borders: Subtle gray-200 (#E5E7EB).",
+      "Primary Actions: Solid Black buttons.",
+      "Accents: Use Blue (#2563EB) sparingly for links, active states, or key highlights."
+    ]
+  },
+  "layout": {
+    "grid_system": {
+      "dashboard": "Tetris Grid (Bento): grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6. Mix card sizes (col-span-1 vs col-span-2) for visual interest.",
+      "detail_view": "Focus Mode: Max-width-4xl centered. Large margins (py-12)."
+    },
+    "spacing": {
+      "container_padding": "p-6 md:p-12",
+      "section_gap": "gap-8",
+      "internal_padding": "p-6"
+    },
+    "radius": "rounded-xl"
+  },
+  "components": {
+    "cards": {
+      "style": "Flat, white background, 1px border (gray-200). No shadow by default. Shadow-lg and scale-105 on hover.",
+      "content": "Minimalist. Image top (aspect-video), Title (bold), Progress bar (thin), Meta info (gray)."
+    },
+    "buttons": {
+      "primary": "bg-black text-white hover:bg-gray-800 rounded-md px-6 py-2 font-medium transition-all active:scale-95.",
+      "secondary": "bg-gray-100 text-gray-900 hover:bg-gray-200 rounded-md px-6 py-2 font-medium.",
+      "ghost": "hover:bg-gray-100 text-gray-600 hover:text-black."
+    },
+    "inputs": {
+      "style": "bg-white border-gray-200 focus:ring-2 focus:ring-black focus:border-transparent rounded-md."
+    },
+    "modals": {
+      "style": "bg-white/80 backdrop-blur-xl border border-white/20 shadow-2xl rounded-2xl."
+    }
+  },
+  "assets": {
+    "images": [
+      {
+        "category": "course_cover_tech",
+        "url": "https://images.unsplash.com/photo-1764437358284-4721473936f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwYWJzdHJhY3QlMjB0ZWNobm9sb2d5JTIwc2hhcGVzJTIwd2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc2ODExNTEwM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract glowing teal rectangles - Use for 'AI & Automation' course."
+      },
+      {
+        "category": "course_cover_coding",
+        "url": "https://images.unsplash.com/photo-1590408867096-a6f7a9de19c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjbGFzc3Jvb20lMjBjb2RpbmclMjBjb21wdXRlciUyMG1pbmltYWxpc3R8ZW58MHx8fHwxNzY4MTE1MTA0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Silver iMac minimalist setup - Use for 'Web Development' course."
+      },
+      {
+        "category": "course_cover_design",
+        "url": "https://images.unsplash.com/photo-1614959652319-6299f514328d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwYWJzdHJhY3QlMjB0ZWNobm9sb2d5JTIwc2hhcGVzJTIwd2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc2ODExNTEwM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract white square frame - Use for 'UI/UX Design' course."
+      },
+      {
+        "category": "course_cover_collab",
+        "url": "https://images.unsplash.com/photo-1454922069690-ed3f6fcddb2b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBjbGFzc3Jvb20lMjBjb2RpbmclMjBjb21wdXRlciUyMG1pbmltYWxpc3R8ZW58MHx8fHwxNzY4MTE1MTA0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Office table with laptops - Use for 'Project Management' course."
+      }
+    ],
+    "icons": "Use Lucide React icons (already installed). Use thin stroke (stroke-width={1.5}) for elegance."
+  },
+  "motion": {
+    "library": "framer-motion",
+    "transitions": {
+      "default": "transition: { duration: 0.3, ease: 'easeOut' }",
+      "hover": "whileHover: { y: -4, scale: 1.02 }",
+      "tap": "whileTap: { scale: 0.98 }"
+    },
+    "page_load": "initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 }"
+  },
+  "universal_guidelines": [
+    "Avoid 'AI Slop': Do not use generic centered layouts or default shadows.",
+    "Spacing: Use 2-3x more padding than usual. Let the content breathe.",
+    "Micro-interactions: Every button, card, and link must have a hover state.",
+    "Data-TestID: All interactive elements must have data-testid attributes.",
+    "No Gradients: Stick to solid colors and subtle borders for this specific 'Academic' look.",
+    "Glassmorphism: Use backdrop-blur-xl for the Admin Modal and Sticky Headers."
+  ],
+  "instructions_to_main_agent": [
+    "1. Implement the 'Admin Mode' toggle in the header. It should be a subtle lock icon that opens a modal.",
+    "2. The Dashboard should be a responsive grid. Use the 'Tetris' logic where possible (though for a course list, a regular responsive grid is also acceptable if content is dynamic).",
+    "3. Course Cards must show: Cover Image, Title, Description (truncated), Progress Bar, and 'Continue' button.",
+    "4. Course Detail View: Large Hero Title, Description text area (editable in Admin mode), and File Upload/List section.",
+    "5. Use 'sonner' for all notifications (success/error).",
+    "6. Ensure the 'PV' access code logic is client-side secure (simple check)."
+  ]
+}
